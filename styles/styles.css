@@ -5,8 +5,13 @@ body {
 .top-nav {
     margin-bottom: 0px;
     border-radius: 0px;
-    background: black;
+    background: #2e6e64;
+    border-bottom: 0px;  
     
+}
+
+.navbar-inverse .navbar-link {
+    color: #fef0ce;
 }
 
 .bottom-nav {
@@ -94,6 +99,13 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.14);
     padding: 25px;
     position: relative;
+    background: #4c4c4c;
+    color: #ffffff;
+}
+
+.card-body .btn-more {
+    background: black;
+    color: #ffffff;
 }
 
 .badge {
