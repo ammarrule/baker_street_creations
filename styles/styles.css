@@ -1,3 +1,10 @@
+@font-face{
+    font-family:'BillionaireMediumGrunge';
+    src: url('BillionaireMediumGrunge.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background: #1e1919;
 }
@@ -59,6 +66,14 @@ body {
     /*border-bottom: 10px solid #ffffff;*/
 }
 
+.logo-lg {
+    width: 750px;
+}
+
+.logo-lg img {
+    margin: auto;
+}
+
 .carousel-container {
     margin-bottom: 20px;
 }
@@ -72,9 +87,25 @@ body {
     background-attachment: fixed;
 }
 
+.carousel-wrap-about {
+    background: #2e6f64;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-row {
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
 .section {
     margin-bottom: 50px;
     background: #2e6f64;
+}
+
+.heading {
+    font-family: BillionaireMediumGrunge;
+    font-size: 80px;
 }
 
 .info-wrap {
@@ -99,7 +130,8 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.14);
     padding: 25px;
     position: relative;
-    background: #4c4c4c;
+    /*background: #4c4c4c;*/
+    background: #FF9800;
     color: #ffffff;
 }
 
@@ -223,7 +255,7 @@ footer div p {
 
 /* DESKTOP MEDIA QUERY*/
 
-@media only screen and (min-width: 786px){
+@media only screen and (min-width: 768px){
 
     .bottom-nav__links li {
         padding-top: 38px;
@@ -236,6 +268,11 @@ footer div p {
     .social .icon-wrap {
         text-align: left;
     }
+
+    .img-row {
+    padding-left: 48px;
+    margin-bottom: 20px;
+}
 
 }
 
@@ -263,6 +300,7 @@ footer div p {
 .store-wrap {
     /*background: #ffffff;*/
     background: #2e6f64;
+    padding-top: 50px;
 }
 
 .custom-wrap {
@@ -286,3 +324,13 @@ footer div p {
     padding-top: 30px;
 }
 
+/*ABOUT*/
+
+.about-page-wrap {
+    /*background-color: #5b9b9d;*/
+    padding-top: 50px;
+    /*background-image: url('bg.png');*/
+    background: #2e6f64;
+    background-size: cover;
+    background-attachment: fixed;
+}
